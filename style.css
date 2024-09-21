@@ -152,6 +152,7 @@ header{
     font-size: 1.7rem;
     color: white;
     transition: 0.5s ease;
+    border-radius: 5px;
 }
 .home-btn a:hover{
     padding: 1.5rem 2.5rem;
@@ -532,23 +533,6 @@ header{
  
     border-radius: 50px 0 0 0;
     
-}
-
-.review-box img{
-    border-radius: 100%;
-    width: 100px;
-    transition: 1s;
-}
-.review-box:hover img{
-    transform: scale(1.1);
-}
-.review-stars{
-    padding: 1rem 0;
-}
-.review-stars i{
-    font-size: 2rem;
-    color: var(--secondcolor);
-    margin: 0.2rem;
 }
 .review-box h2{
     font-size: 2rem;
