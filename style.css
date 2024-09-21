@@ -26,11 +26,10 @@ html{
     scroll-padding-top: 6rem;
 }
 header{
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     right: 0;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,7 +37,7 @@ header{
     width: 100%;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     z-index: 1000;
-    background-color: white !important;
+    background-color: transparent !important;
 
 }
 .logo{
@@ -509,7 +508,8 @@ header{
 .review-heading h1{
     font-size: 40px;
     color: var(--maincolor);
-    padding-bottom: 3rem;
+    padding-bottom: 10px;
+    
 }
 .review-inner-content{
     display: flex;
@@ -517,7 +517,7 @@ header{
     align-items: center;
     gap: 4rem;
     text-align: center;
-   padding: 4rem 0;
+   padding:  0;
     
 }
 .review-box{
