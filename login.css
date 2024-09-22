@@ -1,0 +1,114 @@
+body {
+    background: url(images/background.jpeg) ;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Poppins;
+    min-height: 97vh;
+}
+p{
+    margin: 0;
+}
+.login-box{  
+    height: 500px;
+    width: 400px;
+    flex-direction: column;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    backdrop-filter: blur(3px);
+    box-shadow: 4px 4px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.login-details{
+    height: 120px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.username-box,
+.password-box{
+    font-family: Poppins;
+    padding-left: 10px;
+    height: 45px;
+    width: 300px;
+    border: none;
+    border-radius: 40px;
+}
+.login-title{
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    color: white;
+}
+
+.login-reset{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.login-button{
+    background-color: white;
+    color: black;
+    border: none;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 500;
+    height: 50px;
+    width: 300px;
+    margin-top: 10px;
+    backdrop-filter: blur(14px);
+    border-radius: 40px;
+    transition: blur(20px) 0.15;
+    transition: 0.15s;
+}
+.login-button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.remember{
+    color: white;
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    padding-top: 28px;
+    width: 200px;
+}
+.other-things{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: top;
+}
+.signup{
+    margin-top: 10px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.forgot-link{
+    font-size: small;
+    width: 130px;
+    align-items: center;
+    padding-top: 28px;
+}
